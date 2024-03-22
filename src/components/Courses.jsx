@@ -3,7 +3,7 @@
 import React from 'react'
 import Card from './Card';
 import Slider from 'react-slick';
-import {courses} from '../Data/courses';
+import { courses } from '../Data/courses';
 
 const Courses = () => {
     var settings = {
@@ -57,7 +57,7 @@ const Courses = () => {
             </div>
 
             <Slider {...settings} className='px-5'>
-                {Courses.map((course, i ) => 
+                {courses.map((course, i ) => 
                 <div key={i}>
                     <Card course={course} />
                 </div> )}

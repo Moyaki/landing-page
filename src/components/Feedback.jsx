@@ -8,7 +8,7 @@ import { courses } from '../Data/courses';
 import FeedbackCard from './FeedbackCard';
 
 
-const Feedback = () => {
+const FeedBack = () => {
     var settings = {
         dots: true,
         infinite: false,
@@ -48,8 +48,6 @@ const Feedback = () => {
 
     }
 
-
-
   return (
     <div className='w-full bg-white py-32'>
         <div className='md:max-w-[1480px] m-auto max-w[600px] px-4 md:px-0'>
@@ -69,4 +67,4 @@ const Feedback = () => {
   )
 }
 
-export default Feedback
+export default FeedBack;

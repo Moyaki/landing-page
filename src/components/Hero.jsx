@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { heroImg } from '../assets/heroImg.png'
+import  heroImg  from '../assets/heroImg.png'
 import {AiOutlineSearch} from "react-icons/ai"
 
 

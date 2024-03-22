@@ -1,6 +1,5 @@
-import React from 'react'
-import { logo } from '../assets/logo.svg'
-import {FaFacebookF, FaDribble, FaLinkedIn, FaInstagram, FaBehance} from 'react-icons/fa'
+import  logo  from '../assets/logo.svg'
+import {FaFacebookF, FaInstagram, FaBehance, FaDribbble, FaLinkedinIn} from 'react-icons/fa'
 
 
 const Footer = () => {
@@ -14,9 +13,9 @@ const Footer = () => {
             <h3 className='py-2 text-[#363A3D}'>Email: example@mail.com</h3>
             <div className='flex gap-4 py-4'>
                 <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaFacebookF size={25} style={{color: '#4DC39E'}} /></div>
-                <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaDribble size={25} style={{color: '#4DC39E'}} /></div>
+                <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaDribbble size={25} style={{color: '#4DC39E'}} /></div>
                 <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaInstagram size={25} style={{color: '#4DC39E'}} /></div>
-                <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaLinkedIn size={25} style={{color: '#4DC39E'}} /></div>
+                <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaLinkedinIn size={25} style={{color: '#4DC39E'}} /></div>
                 <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaBehance size={25} style={{color: '#4DC39E'}} /></div>
             </div>
         </div>

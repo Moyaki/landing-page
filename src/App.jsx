@@ -14,9 +14,7 @@ const App = () => {
       <Categories />
       <FeedBack />
       <CTA />
-      <Footer />
-
-      
+      <Footer />      
     </div>
   )
 }

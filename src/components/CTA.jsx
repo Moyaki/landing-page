@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import {CTAImage} from '../assets/CTAImage.png'
+import CTAImage from '../assets/CTAImage.png'
 
 
 const CTAComponent=() => {

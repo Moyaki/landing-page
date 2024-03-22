@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 
 const StarRating = ({ rating }) => {
   const roundedRating = Math.round(rating);

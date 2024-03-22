@@ -1,8 +1,7 @@
-import React from 'react'
-import{companyLogo1} from '../assets/company-logo-1.png'
-import {companyLogo2} from "../assets/company-logo-2.png"
-import {companyLogo3} from "../assets/company-logo-3.png"
-import {companyLogo4} from "../assets/company-logo-4.png"
+import companyLogo1 from '../assets/company-logo-1.png'
+import companyLogo2 from "../assets/company-logo-2.png"
+import companyLogo3 from "../assets/company-logo-3.png"
+import companyLogo4 from "../assets/company-logo-4.png"
 const Companies = () => {
   return (
     <div className='w-fullbg-white py-[50px]'>

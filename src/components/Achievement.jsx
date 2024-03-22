@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react"
-import { achievement } from '../assets/achievement.png'
+import  achievement  from '../assets/achievement.png'
 import {SlGraduation} from 'react-icons/sl'
 import {FiVideo} from 'react-icons/fi'
 import {SlPeople} from 'react-icons/sl'

@@ -1,9 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
-import {logo} from '../assets/logo.svg'
-import {lock} from '../assets/lock.svg'
-import {hamburgerMenu} from '../assets/hamburgerMenu.svg'
-import {close} from '../assets/close.svg'
+import logo from '../assets/logo.svg'
+import lock from '../assets/lock.svg'
+import hamburgerMenu from '../assets/hamburgerMenu.svg'
+import { RiCloseCircleLine } from "react-icons/ri"
+// import {close} from '../assets/close.svg'
+
 
 const Navbar = () => {
 
@@ -36,7 +38,7 @@ const Navbar = () => {
             </div>
 
             <div className='md:hidden'  onClick={handleClick}>
-                    <img src={toggle?close:hamburgerMenu} />
+                    <img src={toggle?<RiCloseCircleLine />:hamburgerMenu} />
             </div>
 
 
